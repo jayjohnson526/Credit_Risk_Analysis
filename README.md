@@ -40,7 +40,7 @@ The data for our second model was selected using the SMOTE oversampling techniqu
 
 * **Recall**: The recall for this model is slightly worse than the recall from the model trained with Naive ROS. 60% of high risk applicants are categorized as high risk and 65% of low risk applicants are classified as low risk.
 
-#### *Undersampling (Cluster Centroids)
+#### *Undersampling (Cluster Centroids)*
 The data for the third model was sampled using the Cluster Centroid undersampling technique. This method generates synthetic data points from the majority class and then undersamples the majority class to match the size of the minority class. 
 
 ![](images/undersampling.png)
